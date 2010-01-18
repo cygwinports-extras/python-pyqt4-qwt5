@@ -1,0 +1,11 @@
+--- origsrc/PyQwt-5.2.0/configure/configure.py	2009-08-01 02:28:33.000000000 -0500
++++ src/PyQwt-5.2.0/configure/configure.py	2010-01-17 23:01:54.452549000 -0600
+@@ -183,7 +183,7 @@ SOURCES = %s
+ ''' % ' '.join(extra_include_dirs))
+     f.close()
+ 
+-    qmake = os.path.join(configuration.qt_dir, 'bin', 'qmake')
++    qmake = os.path.join(configuration.qt_dir, 'bin', 'qmake-qt4')
+     os.system('%s -spec %s -o %s %s' % (
+         qmake, configuration.platform, make_file, pro_file))
+ 
