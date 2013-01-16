@@ -1,8 +1,0 @@
-category: KDE Python
-requires: libgcc1 libQtCore4 libQtGui4 libqwt5 libstdc++6 python python-numpy python-pyqt4 python-sip
-sdesc: "Python bindings for Qwt library"
-ldesc: "PyQwt is a set of Python bindings for the Qwt C++ class library
-which extends the Qt framework with widgets for scientific and
-engineering applications. It provides a widget to plot 2-dimensional
-data and various widgets to display and control bounded or unbounded
-floating point values."

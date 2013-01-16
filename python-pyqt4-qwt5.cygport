@@ -1,6 +1,16 @@
 inherit qt4 python
 
-DESCRIPTION="Python Qwt bindings"
+NAME="python-pyqt4-qwt5"
+VERSION=5.2.0
+RELEASE=5
+CATEGORY="Python"
+#REQUIRES="python-numpy python-pyqt4 python-sip"
+SUMMARY="Python bindings for Qwt library"
+DESCRIPTION="PyQwt is a set of Python bindings for the Qwt C++ class library
+which extends the Qt framework with widgets for scientific and
+engineering applications. It provides a widget to plot 2-dimensional
+data and various widgets to display and control bounded or unbounded
+floating point values."
 HOMEPAGE="http://pyqwt.sourceforge.net/"
 SRC_URI="mirror://sourceforge/pyqwt/PyQwt-${PV}.tar.gz"
 SRC_DIR="PyQwt-${PV}"
